@@ -28,7 +28,7 @@ print("The result is {:7.4}".format(result))  # Formatting float with width and 
 website = "www.example.com"
 course = "Welcome to the Python Programming course"
 
-print(len(course))  # Length of the string
+print(f"Length of the string : ",len(course))  # Length of the string
 print(course[15:21])  # Length with slicing
 print(website.count("w"))  # Count occurrences of 'w'
 print(course.count("o", 0, 20))  # Count occurrences of 'o' in a substring
