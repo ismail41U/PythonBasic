@@ -28,4 +28,4 @@ print("Reversed Tuple using slicing:", reversed_tuple)
 single_element_tuple = (42,)## Creating a single-element tuple
 print("Single Element Tuple:", single_element_tuple)
 empty_tuple = ()## Creating an empty tuple
-print("Empty Tuple:", empty_tuple)  
+print("Empty Tuple:", empty_tuple)   
