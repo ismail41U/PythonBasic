@@ -4,6 +4,8 @@ b = int(input("Enter b number : "))
 result = a > b
 print(f"a > b : {result}")
 
+print("--------------------------------------------------")
+
 user_midterm_one = int(input("Enter midterm_onescore : "))
 user_midterm_two = int(input("Enter midterm_two score : "))
 user_midterm = (user_midterm_one + user_midterm_two) * 0.6
@@ -16,11 +18,15 @@ if total_score >= 50:
 else:
     print(f"Student failed : {total_score}")
 
+print("--------------------------------------------------")
+
 x = int(input("Enter x number : "))
 if x % 2 == 0:
     print(f"{x} is even number")
 else:
     print(f"{x} is odd number")
+
+print("--------------------------------------------------")
 
 y = int(input("Enter y number : "))
 if y >= 0:
