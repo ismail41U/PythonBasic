@@ -11,7 +11,7 @@ class Person:
         self.age = age    # instance variable
         
         # method
-    def greet(self):
+    def information(self):
         return f"Person1 Name :{self.name} Person1 Year :{self.age} Address :{Person.address}"
     
 
