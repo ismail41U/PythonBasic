@@ -15,8 +15,6 @@ for i in file:
     print(i, end="")     # end="" to avoid double new lines
 
 
-content = file.readline(5)
-print(content)
 
 
 
